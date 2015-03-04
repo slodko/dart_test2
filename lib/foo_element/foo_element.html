@@ -1,0 +1,26 @@
+<link rel="import" href="../../../packages/polymer/polymer.html">
+<link rel="import" href="../../../packages/paper_elements/paper_tabs.dart">
+<link rel="import" href="../../../packages/paper_elements/paper_tab.dart">
+<link rel="import" href="../../../packages/core_elements/core_pages.dart">
+
+<polymer-element name="foo-element">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+        <paper-tabs selected="0">
+        <paper-tab>Tab 1</paper-tab>
+        <paper-tab>Tab 2</paper-tab>
+        <paper-tab>Tab 3</paper-tab>
+    </paper-tabs>
+    
+    <core-pages selected="0">
+        <div>Page 11</div>
+        <div>Page 2</div>
+        <div>Page 33</div>
+    </core-pages>
+  </template>
+  <script type="application/dart" src="foo_element.dart"></script>
+</polymer-element>
